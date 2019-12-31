@@ -1,0 +1,35 @@
+.footer {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  hr {
+    border-style: ridge;
+  }
+  .links {
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    li {
+      list-style-type: none;
+      margin-right: 10px;
+      a {
+        text-decoration: none;
+        color: rgb(110, 110, 110);
+      }
+    }
+  }
+  .social {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .content {
+    display: flex;
+    padding-top: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

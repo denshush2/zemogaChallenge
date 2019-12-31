@@ -1,0 +1,13 @@
+.votes {
+  &-title {
+    margin-top: 30px;
+    margin-right: 30px;
+    font-weight: 100;
+  }
+  &-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}

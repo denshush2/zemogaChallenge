@@ -1,0 +1,19 @@
+@import "../../assets/styles/index.scss";
+.papa-time {
+  width: 100%;
+  display: flex;
+  .after {
+    text-transform: uppercase;
+    font-size: $font-closing;
+    color: $color-white;
+    background-color: rgba($color: #000, $alpha: 0.5);
+    text-align: right;
+    height: 40px;
+    width: 40%;
+  }
+  .before {
+    font-size: $font-numbers;
+    background-color: rgba($color: #fff, $alpha: 0.5);
+    width: 100%;
+  }
+}

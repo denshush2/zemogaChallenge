@@ -1,0 +1,25 @@
+@import "../../assets/styles/index.scss";
+.papa-card {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  margin-left: 10%;
+  margin-top: 10px;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  a {
+    color: white;
+  }
+  .content {
+    // height: 100%;
+    padding: 20px;
+  }
+  .question {
+    padding-top: 10px;
+  }
+}

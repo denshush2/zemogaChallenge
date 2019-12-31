@@ -1,0 +1,22 @@
+.be-counted {
+  margin-top: 30px;
+  display: flex;
+  width: 80%;
+  background-color: rgb(241, 238, 238);
+  .first {
+    font-size: 1.2em;
+    text-align: center;
+    padding: 5px;
+
+    b {
+      font-size: 1.5em;
+    }
+    width: 30%;
+  }
+  .second {
+    font-size: 0.8em;
+    padding: 10px;
+    color: rgb(109, 109, 109);
+    width: 70%;
+  }
+}

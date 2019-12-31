@@ -1,0 +1,24 @@
+@import "../../assets/styles/index.scss";
+
+header {
+  //   height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  //   background: blue;
+  padding-top: 2em;
+  padding-left: 4em;
+  .title {
+    color: $color-white;
+    font-size: $font-medium;
+  }
+  nav > ul {
+    margin-right: 20px;
+    li {
+      display: inline;
+      color: $color-white;
+      text-decoration: none;
+      padding-left: 3em;
+    }
+  }
+}

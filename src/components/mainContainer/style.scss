@@ -1,0 +1,10 @@
+.main-container {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("../../assets/img/papa.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
