@@ -1,3 +1,46 @@
+# Zemoga Challenge
+
+## Feedback
+
+Primero que todo queiro decir muchas gracias por dejar este challenge para mi. enviando este challenge me encontre con muchos problemas.
+
+### Que problemas me encontre
+
+- Yo no trabajo en OS Windows, yo uso linux y abrir un psd file fue dificil para mi(tengo windows en mi computador, pero este es solo para multimedia), incluso abriendo el PSD nunca he trabajado con Photoshop como mockup de layouts(Uso Zeppelin).
+- No encontre ningun tipo de assets como
+- - En descripcion encontre que toca usar el Font "Lato" y pues era todo lo que tenia de parametros
+- - Imagenes(los tuve que sacar de internet, y no encontre identicas)
+- - Iconos (Use FontAwesome)
+- - Codigo de colores (en algunos lados use colores de material design)
+- Dimenciones de todo (Debe ser que estan en PSD pero como dije, yo nunca he trabajado con PSD por usar Linux, todo me toco hacer basandose en mi ojo y no quedo super y la verdad no me gusta como quedo, podria haber sido mucho mejor)
+
+### Features
+
+- Lo hice en react(me defiendo igual en React y VueJs) por razon que no queria hacerlo desde, hubiera sido mucho codigo no comprimido y la pagina pesaria mucho mas (uno se demora mas rapido escribiendo create-react-app que configurando webpack)
+- - Miren que use muchos componentes y los hice de formas diferentes para demostrar que manejo cualquier forma de componente.
+- Media Queries: en uno de los componentes(votesCard) esta el uso de media queries directo en el componente.(tambien los conozco usar en css puro)
+- React hooks
+- Uso de constantes en vez de meter texto de hardcoding(no en todos, lados pero hay ejemplos claros)
+- En muchos lados use Flexbox para evitar escribir MediaQueries.
+- Uso adecuado de SCSS y en algunos lados use BEM para demostracion
+
+### Que me falto (A mi punto de vista, depronto encuentran mas cosas)
+
+los siguientes puntos no alcanze por dos razones (Falta de tiempo, y no conocer), hace un buen tiempo no he escrito html puro con CSS, me especializo mas en trabajo con SPA y manejo de tiempo de carga y optmiziaciones de bundles
+
+- Miren que el icono(like/dislike) que queda en los Cards en la parte izquierda no queda alineado (lo intente por flexbox, pero no pude, hubiera dedicado mas tiempo al problema si tendria un poco mas datos de dimenciones)
+- El Header no quedo "Super" responsive(solo felxbox sin media queries), por razon de crear un hamburguer con un Drawer me demoraria mucho porque nunca lo he hecho(hay muchos ejemplos ya listos para descargar)
+- En 1200px no quedan responsive los cards.
+- En Iphone 5/SE no queda responsive el disenio.
+- Depende de la imagen(ustedes la tienen con tono oscuro) los botones de "Vote now" no quedan bien con un fondo blanco(en mi caso) por lo tanto intente usar shadow para el texto, pero y eso no ayuda mucho.
+- Hay codigo comentado
+
+### Para finalizar
+
+Fue un task interesante, como les comente antes, hace un buen tiempo no trabajo con HTML&CSS puro y muchas cosas se me olvidaron y me toco repasar. mas que todo la parte de responsive y las variables standarizados de @mediaQueries
+
+# React default
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
